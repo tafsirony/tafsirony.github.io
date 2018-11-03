@@ -1,0 +1,21 @@
+.header, .hero, .body, .footer {
+	background-color: pink;
+	font-size: 20px;
+	
+	text-align: center;
+}
+
+.box {
+	height: 80px;
+	background-color: skyblue;
+	border: 2px solid blue;
+	margin: 30px 0;
+	text-align: center;
+}
+
+.box-red {
+	height: 80px;
+	background-color: red;
+	border: 2px solid blue;
+	margin: 30px 0;
+}
