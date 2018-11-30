@@ -1,0 +1,268 @@
+/*layout 0 start*/
+.layout0 .header{
+	border: 2px solid red;
+	min-height: 100px;
+}
+.layout0 .banner{
+	border: 2px solid blue;
+	min-height: 200px;
+}
+.layout0 .banner h1{
+	text-align: center;
+	font-family: arial;
+	font-size: 72px;
+}
+.layout0 .wrapper{
+	border: 2px solid pink;
+	/*min-height: 150px;*/
+	overflow: hidden;
+}
+.layout0 .blog{
+	border: 2px solid blue;
+	height: 150px;
+	width: 30%;
+	float: left;
+}
+.layout0 .form{
+	border: 2px solid green;
+	height: 150px;
+	width: 60%;
+	float: right;
+}
+.layout0 .footer{
+	border: 2px solid brown;
+	min-height: 100px;
+}
+/*layout 0 end*/
+.divider{
+	margin: 10px 0px;
+	border: 3px dashed black;
+}
+/*layout 1 start*/
+.layout1 .header{
+	border: 2px solid brown;
+	min-height: 70px;
+}
+.layout1 .banner{
+	border: 2px solid brown;
+	min-height: 300px;
+}
+.layout1 .banner h1{
+	text-align: center;
+	font-family: arial;
+	font-size: 72px;
+}
+.layout1 .wrapper{
+	border: 2px solid brown;
+	/*min-height: 150px;*/
+	overflow: hidden;
+}
+.layout1 .blog{
+	border: 2px solid brown;
+	height: 250px;
+	width: 30%;
+	float: left;
+}
+.layout1 .form{
+	border: 2px solid brown;
+	height: 250px;
+	width: 69.2%;
+	float: right;
+}
+.layout1 .footer{
+	border: 2px solid brown;
+	min-height: 100px;
+}
+/*layout 1 eend*/
+/*layout 2*/
+.layout2 .header{
+	border: 2px solid yellow;
+	min-height: 70px;
+}
+.layout2 .banner{
+	border: 2px solid green;
+	min-height: 300px;
+}
+.layout2 .banner h1{
+	text-align: center;
+	font-family: arial;
+	font-size: 72px;
+}
+.layout2 .article{
+	border: 2px solid red;
+	overflow: hidden;
+	padding: 15px;
+}
+.layout2 .article .article1{
+	border: 2px solid grey;
+	height: 150px;
+	width: 30%;
+	float: left;
+	margin: 5px 8px;
+}
+.layout2 .article .article2{
+	border: 2px solid grey;
+	height: 150px;
+	width: 32%;
+	float: right;
+	margin: 5px 8px 5px 8px;
+}
+.layout2 .article .article3{
+	border: 2px solid grey;
+	height: 150px;
+	width: 32%;
+	float: right;
+	margin: 5px 8px;
+}
+
+.layout2 .wrapper{
+	border: 2px solid brown;
+	/*min-height: 150px;*/
+	overflow: hidden;
+}
+.layout2 .blog{
+	border: 2px solid green;
+	height: 250px;
+	width: 30%;
+	float: left;
+}
+.layout2 .form{
+	border: 2px solid brown;
+	height: 250px;
+	width: 69.2%;
+	float: right;
+}
+.layout2 .footer{
+	border: 2px solid brown;
+	min-height: 50px;
+}
+/*layout 2 end*/
+/*layout 3 start*/
+.layout3 .header{
+	border: 2px solid brown;
+	min-height: 70px;
+}
+.layout3 .banner{
+	border: 2px solid brown;
+	min-height: 300px;
+}
+.layout3 .banner h1{
+	text-align: center;
+	font-family: arial;
+	font-size: 72px;
+}
+.layout3 .article{
+	border: 2px solid brown;
+	overflow: hidden;
+	padding: 15px;
+}
+.layout3 .article .article1{
+	border: 2px solid brown;
+	height: 150px;
+	width: 30%;
+	float: left;
+	margin: 5px 8px;
+}
+.layout3 .article .article2{
+	border: 2px solid brown;
+	height: 150px;
+	width: 32%;
+	float: right;
+	margin: 5px 8px 5px 8px;
+}
+.layout3 .article .article3{
+	border: 2px solid brown;
+	height: 150px;
+	width: 32%;
+	float: right;
+	margin: 5px 8px;
+}
+
+.layout3 .adbox{
+	border: 2px solid brown;
+	min-height: 40px;
+}
+.layout3 .footer{
+	border: 2px solid brown;
+	min-height: 100px;
+}
+.layout3 .footer .footerbox{
+	border: 2px solid brown;
+	margin: 20px 150px;
+	height: 120px;
+}
+/*layout 3 end*/
+/*layout 4 start*/
+
+.layout4 .banner{
+	border: 2px solid green;
+	min-height: 120px;
+}
+.layout4 .banner h1{
+	text-align: center;
+	font-family: arial;
+	font-size: 72px;
+}
+.layout4 .wrapper{
+	border: 2px solid green;
+	/*min-height: 150px;*/
+	overflow: hidden;
+}
+.layout4 .blog{
+	border: 2px solid green;
+	height: 350px;
+	width: 40%;
+	float: left;
+}
+.layout4 .form{
+	border: 2px solid orange;
+	height: 350px;
+	width: 59.2%;
+	float: right;
+}
+.layout4 .article{
+	border: 2px solid yellow;
+	overflow: hidden;
+	
+}
+.layout4 .article .article1{
+	border: 2px solid yellow;
+	height: 150px;
+	width: 34.8%;
+	float: left;
+	
+}
+.layout4 .article .article2{
+	border: 2px solid yellow;
+	height: 150px;
+	width: 32%;
+	float: right;
+	
+}
+.layout4 .article .article3{
+	border: 2px solid yellow;
+	height: 150px;
+	width: 32%;
+	float: right;
+	
+}
+
+.layout4 .wrapper2{
+	border: 2px solid blue;
+	/*min-height: 150px;*/
+	overflow: hidden;
+}
+.layout4 .wrapper2 .about{
+	border: 2px solid blue;
+	height: 250px;
+	width: 69.2%;
+	float: left;
+}
+.layout4 .wrapper2 .form{
+	border: 2px solid blue;
+	height: 250px;
+	width: 30%;
+	float: right;
+}
+
+/*layout 4 end*/
