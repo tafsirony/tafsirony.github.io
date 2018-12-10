@@ -1,0 +1,302 @@
+*{
+	margin: 0 auto;
+	padding: 0 auto;
+}
+/*header start*/
+header{
+	background-color: #18202C;
+	padding: 10px auto;
+}
+.wrapper {
+	
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.logo {
+	width: 15%;
+	/*padding: 10px;*/
+	float: left;
+	
+}
+.logo img{
+	width: 100%;
+}
+.menu {
+	width: 70%;
+	float: right;
+	margin-top: 20px;
+}
+.menu ul{
+	float: right;
+
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+
+}
+.menu ul li a{
+	text-decoration:none;
+	padding: 15px;
+	display: block;
+	color: white;
+	transition: 0.5s;
+	text-transform: uppercase;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: #32668B;
+}
+/*header end*/
+/*banner start*/
+ .banner {
+	background-image: url(../images/slide.jpg);
+	background-repeat: none;
+	background-size: cover;
+	background-position:   top center;
+	/*min-height: 400px;*/
+}
+.banner-content {
+	margin-top: 200px;
+	margin-bottom: 50px;
+	/*border:2px solid red;*/
+	width: 35%;
+	float: left;
+}
+.banner-content p:first-child{
+	color: #F9FEFF;
+	font-size: 27px;
+	font-family: sans-serif;
+}
+.banner-content h1{
+	color:#0B74BB;	
+	font-size: 35px;
+	font-family: sans-serif;
+}
+
+.banner-content p:nth-last-child(2){
+	color: #F6FCFF;
+	font-size: 18px;
+	line-height: 1.5;
+}
+.banner-content button{
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	color: #A0A0A0;
+	font-size: 18px;
+	margin-top: 20px;
+	text-transform: uppercase;
+	transition: .5s;
+
+}
+.banner-content button span{
+	background-color: #007FB6;
+	padding: 5px 10px;
+	border-radius: 50%;
+	color: white;
+	margin-left: 10px;
+
+}
+/*banner end*/
+/*service start*/
+
+.service {
+	background-color: #18202E;
+	padding: 50px 0;
+}
+
+.single {
+	border-right: 1px solid white;
+	width: 28%;
+	float: left;
+	padding: 10px 20px;
+}
+.single:last-child{
+	border-right: 0;
+}
+.title {
+	 overflow: hidden;
+	 
+}
+
+.icon {
+	float: left;
+	width: 25%;
+
+}
+.icon img{
+	width: 100%;
+	
+}
+.icon-content {
+	margin-top: 5px;
+	width: 65%;
+	float: left;
+}
+.icon-content h1{
+	font-family: sans-serif;
+	color: white;
+}
+.icon-content h2{
+	font-family: sans-serif;
+	color: #0E73BB;
+
+}
+.content {
+	margin: 15px;
+
+}
+.content p{
+	font-family: sans-serif;
+	line-height: 1.5;
+	color: white;
+
+}
+/*service end*/
+/*contact start*/
+.contact{
+	background-color: #03060F;
+	padding: 10px 0px;
+
+}
+.address{
+	color: white;
+	width: 28%;
+	float: left;
+	margin-top: 20px;
+	padding: 40px 20px;
+	font-family: sans-serif;
+
+}
+.address h1 span{
+	padding: 10px;
+	color: #0E73BB;
+	font-family: sans-serif;
+}
+
+.testimonial{
+	
+	width: 28%;
+	float: left;
+	padding: 30px 20px;
+	color: white;
+
+}
+.testimonial h1{
+	color:#007BBC;
+	font-family: sans-serif;
+
+}
+.testimonial  span{
+	color: white;
+}
+.title{
+	margin: 10px 0px;
+}
+.testimonial .box{
+	border: 1px solid #14171F;
+	border-radius: 5px;
+	padding: 40px 20px;
+	background-color: #14171F;
+	color: white;
+}
+.testimonial .author{
+	padding-top: 20px;
+	margin-left: 20px;
+
+}
+.author p{
+	margin-top: 5px;
+	font-size: 12px;
+}
+
+
+
+.app{
+	color: white;
+	width: 28%;
+	float: left;
+	padding: 40px 20px;
+	overflow: hidden;
+}
+.app .img{
+	float: left;
+	width: 50%;
+}
+.img-content{
+	float: left;
+	width: 40%;
+	padding: 10px;
+	
+}
+.img-content h2{
+	display: block;
+	color: #007BBC;
+
+}
+.img-content h1{
+	float: left;
+	display: block;
+}
+
+/*contact end*/
+/*footer starts*/
+footer{
+	background-color: #18212F;
+}
+.footer-right{
+	width: 60%;
+	float: left;
+}
+.footer-menu{
+	float: left;
+	font-size: 15px;
+	margin-top: 25px;
+	padding: 10px 0px;
+}
+.footer-menu ul{
+	float: left;
+	margin-left: -35px;
+}
+.footer-menu ul li{
+	float: left;
+	list-style: none;
+	border-right: 1px solid white;
+}
+.footer-menu ul li a{
+	text-decoration: none;
+	padding: 5px 10px;
+	color: white;
+	display: block;
+}
+.footer-menu ul li:last-child{
+	padding-right: 0;
+	border: none;
+
+}
+.footer-menu ul li:last-child a{
+	padding-right: 0;
+	
+}
+.footer-menu ul li a:hover{
+	color: #1F5C7D;
+	transition: .5s;
+}
+.copyright{
+	color: white;
+	font-size: 15px;
+	padding: 10px 0px;
+	margin-left: 15px;
+}
+
+.footer-left{
+	width: 30%;
+	float: right;
+	padding: 10px;
+}
+/*footer ends*/
